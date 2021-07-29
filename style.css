@@ -1,0 +1,65 @@
+
+
+
+
+.honda h1,small{
+    color: white;
+}
+.honda p{
+    color:whitesmoke;
+}
+.bike img{
+    width: 80%;
+}
+/*-------------
+        ----- GRAYSCALE Start--
+        -----  */
+.feature img{
+    width: 288px;
+}  
+.grayscale{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.grayscale:hover{
+    filter: grayscale(0%);
+}
+/*-------
+    ------ GRAYSCALE END----
+    ---  */
+.card-body img{
+    min-width: 40%;
+    max-height: 200px;
+}
+/* font-awesome */
+
+.fa-star{
+    color:#E77C40;
+
+}
+.name-link{
+    text-decoration: none;
+    font-weight: 700;
+}
+.card{
+    width: 320px;
+
+}
+span{
+    color: #E77C40;
+}
+.faq{
+    width: 70%;
+}
+.carousel-item img{
+    
+    border-radius: 0%;
+    width: 30%;
+    height: 30%;
+    margin: 1.25rem auto;
+    object-fit: cover;
+    background-color: var(--bg-white);
+    border: 0.063rem solid var(--bg-light-white);
+}
